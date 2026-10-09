@@ -66,3 +66,134 @@
     background-color: #322E34;
     color: white;
 }
+
+.site-footer {
+    min-height: 620px;
+    margin: 80px 8px 8px;
+    padding: 40px 4%;
+    display: flex;
+    align-items: flex-end;
+    background: url("https://fotografias-2.larazon.es/clipping/cmsimages02/2024/11/01/71E9C93D-0CBE-4E8B-9E4B-965AC0DEB7A5/98.jpg?crop=4896%2C2755%2Cx0%2Cy255&format=webply&height=1069&optimize=low&width=1900") center/cover;
+}
+
+.footer-panel {
+    width: 100%;
+    padding: 36px;
+    border-radius: 8px;
+    background: white;
+}
+
+.footer-top,
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.newsletter {
+    display: flex;
+    gap: 8px;
+}
+
+.newsletter input,
+.newsletter button {
+    height: 36px;
+    padding: 0 18px;
+    border: 1px solid var(--first-color);
+    border-radius: 20px;
+}
+
+.newsletter input {
+    width: 230px;
+}
+
+.newsletter button {
+    color: white;
+    background: var(--first-color);
+    cursor: pointer;
+}
+
+.footer-links {
+    display: grid;
+    gap: 8px;
+}
+
+.footer-links a {
+    color: var(--first-color);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 55px;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    color: var(--first-color);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-brand img {
+    width: 55px;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.partner {
+    min-height: 52px;
+    padding: 8px 12px;
+    display: grid;
+    place-items: center;
+    font-size: 10px;
+    text-align: center;
+}
+
+.spain {
+    background: #ffd900;
+}
+
+.mark {
+    color: #e60036;
+    background: var(--first-color);
+    font-size: 26px;
+    font-style: italic;
+}
+
+.valencia {
+    color: #d50046;
+}
+
+@media (max-width: 700px) {
+    .site-footer {
+        min-height: 700px;
+        padding: 24px;
+    }
+
+    .footer-top,
+    .footer-bottom {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .newsletter {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .newsletter input,
+    .newsletter button {
+        width: 100%;
+    }
+
+    .partners {
+        flex-wrap: wrap;
+    }
+}
