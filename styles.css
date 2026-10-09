@@ -9,6 +9,10 @@
     font-family: var(--first-font);
 }
 
+body {
+    margin: 0;
+}
+
 .navbar {
     position: relative;
     width: 100%;
@@ -70,11 +74,10 @@
 
 .site-footer {
     min-height: 760px;
-    margin: 80px 8px 8px;
+    margin: 80px 0 0;
     padding: 40px 4.14% 56px;
     display: flex;
     align-items: flex-end;
-    border-radius: 6px;
     background: url("assets/footer-background.png") center/cover;
 }
 
