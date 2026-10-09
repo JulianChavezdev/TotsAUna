@@ -4,7 +4,8 @@
 --first-font: 'Inter' , sans-serif;
 }
 
-*{
+* {
+    box-sizing: border-box;
     font-family: var(--first-font);
 }
 
@@ -68,22 +69,30 @@
 }
 
 .site-footer {
-    min-height: 620px;
+    min-height: 760px;
     margin: 80px 8px 8px;
-    padding: 40px 4%;
+    padding: 40px 4.14% 56px;
     display: flex;
     align-items: flex-end;
-    background: url("https://fotografias-2.larazon.es/clipping/cmsimages02/2024/11/01/71E9C93D-0CBE-4E8B-9E4B-965AC0DEB7A5/98.jpg?crop=4896%2C2755%2Cx0%2Cy255&format=webply&height=1069&optimize=low&width=1900") center/cover;
+    border-radius: 6px;
+    background: url("assets/footer-background.png") center/cover;
 }
 
 .footer-panel {
     width: 100%;
-    padding: 36px;
+    min-height: 300px;
+    padding: 55px 5%;
     border-radius: 8px;
     background: white;
 }
 
-.footer-top,
+.footer-top {
+    display: grid;
+    grid-template-columns: 1.4fr .7fr .6fr;
+    align-items: center;
+    gap: 40px;
+}
+
 .footer-bottom {
     display: flex;
     align-items: center;
@@ -98,20 +107,28 @@
 
 .newsletter input,
 .newsletter button {
-    height: 36px;
+    height: 38px;
     padding: 0 18px;
     border: 1px solid var(--first-color);
     border-radius: 20px;
+    font-size: 12px;
 }
 
 .newsletter input {
-    width: 230px;
+    width: min(250px, 18vw);
 }
 
 .newsletter button {
     color: white;
     background: var(--first-color);
     cursor: pointer;
+}
+
+.footer-note {
+    margin: 0;
+    color: #8b8b8b;
+    font-size: 18px;
+    text-align: center;
 }
 
 .footer-links {
@@ -126,50 +143,33 @@
 }
 
 .footer-bottom {
-    margin-top: 55px;
+    margin-top: 70px;
 }
 
 .footer-brand {
     display: flex;
     align-items: center;
     color: var(--first-color);
-    font-size: 20px;
+    font-size: clamp(24px, 2.8vw, 40px);
     text-decoration: none;
 }
 
 .footer-brand img {
-    width: 55px;
+    width: clamp(55px, 5.4vw, 78px);
 }
 
 .partners {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: clamp(20px, 4vw, 64px);
 }
 
-.partner {
-    min-height: 52px;
-    padding: 8px 12px;
-    display: grid;
-    place-items: center;
-    font-size: 10px;
-    text-align: center;
+.partners img {
+    display: block;
+    object-fit: contain;
 }
 
-.spain {
-    background: #ffd900;
-}
 
-.mark {
-    color: #e60036;
-    background: var(--first-color);
-    font-size: 26px;
-    font-style: italic;
-}
-
-.valencia {
-    color: #d50046;
-}
 
 @media (max-width: 700px) {
     .site-footer {
@@ -181,6 +181,10 @@
     .footer-bottom {
         align-items: flex-start;
         flex-direction: column;
+    }
+
+    .footer-top {
+        display: flex;
     }
 
     .newsletter {
