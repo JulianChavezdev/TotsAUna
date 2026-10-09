@@ -150,18 +150,18 @@
     display: flex;
     align-items: center;
     color: var(--first-color);
-    font-size: clamp(24px, 2.8vw, 40px);
+    font-size: 32px;
     text-decoration: none;
 }
 
 .footer-brand img {
-    width: clamp(55px, 5.4vw, 78px);
+    width: 70px;
 }
 
 .partners {
     display: flex;
     align-items: center;
-    gap: clamp(20px, 4vw, 64px);
+    gap: 40px;
 }
 
 .partners img {
@@ -169,7 +169,17 @@
     object-fit: contain;
 }
 
+.government-logo {
+    width: 170px;
+}
 
+.av-logo {
+    width: 80px;
+}
+
+.generalitat-logo {
+    width: 85px;
+}
 
 @media (max-width: 700px) {
     .site-footer {
@@ -199,5 +209,23 @@
 
     .partners {
         flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .footer-brand {
+        font-size: 24px;
+    }
+
+    .footer-brand img {
+        width: 55px;
+    }
+
+    .government-logo {
+        width: 130px;
+    }
+
+    .av-logo,
+    .generalitat-logo {
+        width: 64px;
     }
 }
