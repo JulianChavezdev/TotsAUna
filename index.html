@@ -4,34 +4,66 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tots a Una</title>
+    <title>tots a una</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-                <h1>
-                    tots a una
-                </h1>
-            </li>
-            <li>
-                <button>Acceder</button>
-            </li>
-            <li>
-                <button>Contacto</button>
-            </li>
-            <li>
-                <img src="https://res.cloudinary.com/dbtuho5h0/image/upload/v1790670922/ae2122b7-77b9-40e7-8119-15a107913783_in89fj.png"
-            </li>
-        </ul>
-    </nav>
+    <header class="navbar">
+
+        <div class="logo">
+            <img src="https://res.cloudinary.com/dbtuho5h0/image/upload/v1790670922/ae2122b7-77b9-40e7-8119-15a107913783_in89fj.png" alt="bat">
+        </div>
+
+        <a href="#home" class="title">tots a una</a>
+
+        <nav>
+            <ul class="navLinks">
+                <li>
+                    <a href="#contact">Contacto</a>
+                </li>
+                <li>
+                    <button type="button" class="login">Acceder</button>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
     <main>
         <section class="hero">
         </section>
         <section class="cards"></section>
     </main>
 
-    <footer>     
+    <footer class="site-footer">
+        <div class="footer-panel">
+            <div class="footer-top">
+                <form class="newsletter">
+                    <input type="email" placeholder="tucorreo@correo.com" aria-label="Correo electrónico">
+                    <button type="submit">suscríbete</button>
+                </form>
+
+                <p class="footer-note">LOREM IPSUM</p>
+
+                <nav class="footer-links">
+                    <a href="#">LOREM IPSUM</a>
+                    <a href="#">LOREM IPSUM</a>
+                    <a href="#">LOREM IPSUM</a>
+                    <a href="#">LOREM IPSUM</a>
+                </nav>
+            </div>
+
+            <div class="footer-bottom">
+                <a class="footer-brand" href="#">
+                    <img src="assets/totsauna-logo.png" alt="Logo tots a una">
+                    <strong>tots a una</strong>
+                </a>
+
+                <div class="partners" aria-label="Entidades colaboradoras">
+                    <img class="government-logo" src="assets/government-logo.png" alt="Gobierno de España">
+                    <img class="av-logo" src="assets/av-logo.png" alt="Logo Capi">
+                    <img class="generalitat-logo" src="assets/generalitat-logo.png" alt="Generalitat Valenciana">
+                </div>
+            </div>
+        </div>
     </footer>
     
 </body>
