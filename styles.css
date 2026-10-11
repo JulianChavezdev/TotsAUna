@@ -214,7 +214,7 @@ body {
     text-align: center;
     transform: rotateY(180deg);
     border-radius: 5px;
-    border: 1px solid #322E34;
+    background-color: #e1e1e1;
 }
 
 .site-footer {
