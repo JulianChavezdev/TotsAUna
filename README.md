@@ -37,7 +37,6 @@ En momentos de crisis o necesidad social, la velocidad de respuesta y la gestió
   * **Frente:** Imagen del recurso, título y ubicación geográfica.
   * **Reverso:** Detalles descriptivos del material/servicio ofrecido y contacto directo.
 * **Footer Institucional:** Sección para suscripción a newsletter, enlaces informativos y marcas de entidades colaboradoras.
-* **Diseño Adaptativo (Responsive):** Ajustes mediante *Media Queries* e integración de CSS Grid y Flexbox.
 
 ---
 
