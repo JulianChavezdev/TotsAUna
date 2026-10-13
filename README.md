@@ -1,105 +1,43 @@
-# 🦇 Tots a Una — Código con Causa
+# Tots a Una
 
-> **Plataforma de ayuda directa y solidaridad comunitaria sin intermediarios.**
+> **"When everything stops, we act."**
 
-**Tots a Una** es una plataforma web desarrollada en el marco del proyecto *Código con Causa*. Su principal objetivo es conectar de forma rápida, transparente y directa a personas que ofrecen recursos o herramientas con aquellas que los necesitan con urgencia tras situaciones de emergencia o necesidad social.
+## 📌 About the Project
 
----
+**Tots a una** is a citizen platform created to transform solidarity into efficient, direct help during severe crisis episodes (such as the DANA floods). 
 
-## 📌 Tabla de Contenidos
-
-- [Acerca del Proyecto](#-acerca-del-proyecto)
-- [Características Principales](#-características-principales)
-- [Tecnologías y Herramientas](#-tecnologías-y-herramientas)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Instalación y Uso](#-instalación-y-uso)
-- [Metodología de Trabajo](#-metodología-de-trabajo)
-- [Autores](#-autores)
+During extreme emergencies, citizen willingness to help is massive, but logistical chaos and bureaucratic bottlenecks often prevent supplies and resources from reaching those in need. **Tots a una** eliminates intermediaries by connecting people who urgently need aid with those who can provide it in real time.
 
 ---
 
-## 🚀 Acerca del Proyecto
+## 🚀 Key Features
 
-En momentos de crisis o necesidad social, la velocidad de respuesta y la gestión directa de los recursos es fundamental. **Tots a Una** actúa como un punto de encuentro para canalizar donaciones de material de apoyo (generadores, bombas de agua, botas, herramientas de limpieza, etc.) directamente a las zonas que lo requieren.
-
-### Objetivos del Proyecto:
-* **Impacto Social:** Crear una herramienta digital usable y accesible para situaciones de emergencia.
-* **Diseño Atomic & Responsive:** Garantizar una experiencia limpia, intuitiva y adaptable a cualquier dispositivo (Desktop, Tablet, Mobile).
-* **Conexión Directa:** Permitir visualizar las necesidades por ubicación geográfica e información de contacto sin intermediarios.
+- **Direct Citizen-to-Citizen Connection:** Eliminates unnecessary middlemen to speed up aid delivery.
+- **Interactive Assistance Cards:** Clear visual identification of available resources (pumps, generators, boots, shovels, etc.).
+- **Smooth 3D Flip Animation:** Hovering over any card smoothly flips it to reveal description details and direct phone contacts without leaving the main page.
+- **Responsive Design:** Optimized layout for seamless navigation on both desktop and mobile devices.
 
 ---
 
-## ✨ Características Principales
+## ⚙️ How It Works
 
-* **Hero Dinámico:** Cabecera con vídeo de fondo autoplay y mensaje claro de llamada a la acción (*Call to Action*).
-* **Navegación Intuitiva:** Menú superior con acceso rápido, logo representativo y enlace de acceso.
-* **Tarjetas Interactivas con Efecto Flip:**
-  * **Frente:** Imagen del recurso, título y ubicación geográfica.
-  * **Reverso:** Detalles descriptivos del material/servicio ofrecido y contacto directo.
-* **Footer Institucional:** Sección para suscripción a newsletter, enlaces informativos y marcas de entidades colaboradoras.
+1. **View the Help:** Inspect the image, resource title, and neighborhood location on the front of the card.
+2. **Hover over the Card:** A smooth CSS 3D flip animation is triggered.
+3. **Read the Offer:** Learn what is being offered and its intended use on the back of the card.
+4. **Direct Contact:** Access the owner's phone number directly for instant coordination.
 
 ---
 
-## 🛠️ Tecnologías y Herramientas
+## 🛠️ Built With
 
-### Tecnologías Utilizadas
-* **HTML5:** Estructura semántica de la web.
-* **CSS3:** Estilizado moderno utilizando Flexbox, CSS Grid, variables CSS, animaciones 3D (`transform-style: preserve-3d`) y diseño adaptable (*Responsive Design*).
-* **Google Fonts:** Tipografía *Inter*.
-
-### Herramientas de Diseño y Gestión
-* **Figma:** Creación de mockups y prototipado UI/UX aplicando principios de *Atomic Design*.
-* **Trello:** Gestión del proyecto mediante metodologías ágiles (Scrum/Kanban).
-* **Visual Studio Code:** Entorno de desarrollo.
-* **Cloudinary:** Mantenimiento e integración optimizada de activos multimedia (imágenes y vídeo).
+- **HTML5:** Semantic structure for optimal accessibility.
+- **CSS3:** Custom styles utilizing CSS Grid, Flexbox, variables, and pure CSS 3D transforms (`perspective`, `transform-style: preserve-3d`, `backface-visibility`).
+- **Figma (Atomic Design):** UI/UX prototyping organized by atoms, molecules, and organisms.
+- **Trello (Agile Methodology):** Sprint planning, User Stories, and task management.
 
 ---
 
-## 📂 Estructura del Proyecto
+## 👥 Team
 
-```text
-codigo-con-causa/
-├── index.html               # Archivo principal de estructura HTML
-├── styles.css               # Hoja de estilos globales y responsive
-└── README.md                # Documentación del proyecto
-```
-
----
-
-## 💻 Instalación y Uso
-
-No se requieren dependencias externas ni compiladores para ejecutar la aplicación.
-
-1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/JulianChavezdev/TotsAUna
-   ```
-2. **Navega al directorio del proyecto:**
-   ```bash
-   cd codigo-con-causa
-   ```
-3. **Abre el archivo `index.html`** en tu navegador preferido o utiliza una extensión de servidor local como *Live Server* en VS Code.
-
----
-
-## 🔄 Metodología de Trabajo
-
-El desarrollo de este proyecto se llevó a cabo durante **2 Sprints semanales** aplicando marcos de trabajo **Ágiles (Scrum)**:
-
-1. **Inception & Planificación:** Definición del Product Backlog, asignación de tareas e historias de usuario en Trello.
-2. **Daily Meetings:** Breves sincronizaciones diarias para seguimiento del estado de las tareas y resolución de bloqueos.
-3. **Desarrollo e Iteración:** Maquetación e integración continua en base al prototipo creado en Figma.
-4. **Demo & Retrospectiva:** Presentación del incremento del producto y análisis de puntos de mejora.
-
----
-
-## 👥 Autores
-
-Proyecto realizado con ❤️ por el equipo de **Código con Causa**:
-
-* **Julian Chávez** - *Dev*
-* **Nerea Ros** - *Dev*
-
-
----
-
+- **Nerea Ros** — *Scrum Master / Developer*
+- **Julián Chávez** — *Developer*
