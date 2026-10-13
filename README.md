@@ -59,12 +59,6 @@ En momentos de crisis o necesidad social, la velocidad de respuesta y la gestió
 
 ```text
 codigo-con-causa/
-├── assets/                  # Imágenes locales, logos y colaboradores
-│   ├── footer-background.png
-│   ├── totsauna-logo.png
-│   ├── government-logo.png
-│   ├── av-logo.png
-│   └── generalitat-logo.png
 ├── index.html               # Archivo principal de estructura HTML
 ├── styles.css               # Hoja de estilos globales y responsive
 └── README.md                # Documentación del proyecto
@@ -78,7 +72,7 @@ No se requieren dependencias externas ni compiladores para ejecutar la aplicaci�
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/codigo-con-causa.git
+   git clone https://github.com/JulianChavezdev/TotsAUna
    ```
 2. **Navega al directorio del proyecto:**
    ```bash
@@ -103,9 +97,9 @@ El desarrollo de este proyecto se llevó a cabo durante **2 Sprints semanales** 
 
 Proyecto realizado con ❤️ por el equipo de **Código con Causa**:
 
-* **[Nombre del Integrante 1]** - *Rol / Contribución*
-* **[Nombre del Integrante 2]** - *Rol / Contribución*
-* **[Nombre del Integrante 3]** - *Rol / Contribución*
+* **Julian Chávez** - *Dev*
+* **Nerea Ros** - *Dev*
+
 
 ---
-*Proyecto educativo y de impacto social.*
+
